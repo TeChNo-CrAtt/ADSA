@@ -1,6 +1,8 @@
+
 import java.util.Arrays;
 
-public class Solution02 {
+public class Array_Leaders {
+
     public int[] replaceElements(int[] arr) {
         int n = arr.length;
         int maximumRight = -1;
@@ -15,9 +17,9 @@ public class Solution02 {
     }
 
     public static void main(String[] args) {
-        int[] arr = {17, 18, 5, 4, 6, 1}; 
-        Solution02 obj = new Solution02();
+        int[] arr = {17, 18, 5, 4, 6, 1};
+        Array_Leaders obj = new Array_Leaders();
         int[] result = obj.replaceElements(arr);
-        System.out.println(Arrays.toString(result));
+        System.out.print(Arrays.toString(result));
     }
 }

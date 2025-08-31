@@ -1,6 +1,8 @@
+
 import java.util.Scanner;
 
-public class Solution01 {
+public class LCM_GCD {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -12,7 +14,7 @@ public class Solution01 {
         int x = a;
         int y = b;
         while (y != 0) {
-           int temp = y;
+            int temp = y;
             y = x % y;
             x = temp;
         }

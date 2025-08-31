@@ -1,12 +1,14 @@
-import java.util.*
 
-public class Solution03 {
+import java.util.*;
+
+public class Min_to_Max {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt(); 
+        int t = sc.nextInt();
 
         for (int i = 0; i < t; i++) {
-            int n = sc.nextInt(); 
+            int n = sc.nextInt();
             int[] arr = new int[n];
             int min = Integer.MAX_VALUE;
 

@@ -1,6 +1,8 @@
+
 import java.util.*;
 
-class Question02 {
+class Trapping_Rainwater {
+
     public int trap(int[] height) {
         int left = 0, right = height.length - 1;
         int leftMax = 0, rightMax = 0;
@@ -35,7 +37,7 @@ class Question02 {
         for (int i = 0; i < n; i++) {
             height[i] = sc.nextInt();
         }
-        Question02 obj = new Question02();
+        Trapping_Rainwater obj = new Trapping_Rainwater();
         int result = obj.trap(height);
         System.out.println("Trapped water: " + result);
         sc.close();
